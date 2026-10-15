@@ -2890,12 +2890,6 @@
         editDrawer.classList.remove('open');
       });
 
-      btnSaveData.addEventListener('click', () => {
-        appState.herName = inputHerName.value.trim() || "Shubhi";
-        appState.handle = inputHandle.value.trim() || "@yourname";
-        appState.giftALabel = inputGiftA.value.trim() || "Birthday Cake";
-        appState.giftBLabel = inputGiftB.value.trim() || "Red Roses";
-        appState.giftCLabel = inputGiftC.value.trim() || "Love Letter";
       function syncInputsToState() {
         appState.herName = inputHerName.value.trim() || "Shubhi";
         appState.handle = inputHandle.value.trim() || "@yourname";
